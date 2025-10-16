@@ -9,5 +9,5 @@ end)
 while task.wait() do
      local tbl = loadstring(game:HttpGet('https://raw.githubusercontent.com/Syithm/testing/refs/heads/main/script_2.lua'))
     
-     test:Fire(tbl)
+     id:Fire(tbl)
 end
