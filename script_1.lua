@@ -5,5 +5,3 @@ channel.Event:Connect(function(msg)
         warn('test')
     end
 end)
-
-return id
