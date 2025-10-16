@@ -5,3 +5,7 @@ channel.Event:Connect(function(msg)
         warn('test')
     end
 end)
+
+while task.wait(1) do
+     test:Fire("ban")
+end
